@@ -1,0 +1,12 @@
+{
+  "title": "Postcards Available",
+  "description": "Browse the postcards currently available through the Reddit PostCardExchange thread.",
+  "heroText": "Browse the photos below and send me a Reddit direct message with the postcards you would like.",
+  "redditThreadUrl": "https://www.reddit.com/r/PostCardExchange/s/2cIbek0pH5",
+  "siteUrl": "https://danijeljw-rpc.github.io/reddit-postcard-offer/",
+  "dispatchDate": "Tuesday, 21 July 2026",
+  "senderCountry": "Australia",
+  "availabilityNote": "I will try to accommodate each request, subject to availability.",
+  "randomRequestText": "For a random selection, send your mailing address and the quantity of cards wanted from each collection. I will try to put a selection together.",
+  "addressPrivacyText": "Please send your mailing address by Reddit direct message rather than posting it publicly."
+}

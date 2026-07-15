@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="theme-color" content="#8b2f3f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="{{SITE_URL}}">
+  <title>{{TITLE}}</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="page-shell hero__inner">
+      <p class="eyebrow">Postcard exchange</p>
+      <h1>{{TITLE}}</h1>
+      <p class="hero__text">{{HERO_TEXT}}</p>
+      <a class="button button--primary" href="{{REDDIT_THREAD_URL}}" target="_blank" rel="noopener noreferrer">
+        Open the Reddit thread
+      </a>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="instructions" aria-labelledby="request-heading">
+      <div>
+        <p class="eyebrow">How to request cards</p>
+        <h2 id="request-heading">Send the details by Reddit direct message</h2>
+      </div>
+
+      <ol class="request-steps">
+        <li>
+          <span class="step-number" aria-hidden="true">1</span>
+          <div>
+            <strong>Choose the cards</strong>
+            <p>Send the collection name and postcard number or numbers you want.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-number" aria-hidden="true">2</span>
+          <div>
+            <strong>Include your mailing address</strong>
+            <p>{{ADDRESS_PRIVACY_TEXT}}</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-number" aria-hidden="true">3</span>
+          <div>
+            <strong>Wait for confirmation</strong>
+            <p>{{AVAILABILITY_NOTE}}</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="notice-grid">
+        <article class="notice">
+          <h3>Random selections are welcome</h3>
+          <p>{{RANDOM_REQUEST_TEXT}}</p>
+        </article>
+        <article class="notice">
+          <h3>Planned mailing date</h3>
+          <p>I plan to mail the postcards from {{SENDER_COUNTRY}} by <strong>{{DISPATCH_DATE}}</strong>.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery-section" aria-labelledby="gallery-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Current selection</p>
+          <h2 id="gallery-heading">Available postcards</h2>
+        </div>
+        <p class="image-count">{{IMAGE_COUNT_LABEL}}</p>
+      </div>
+
+      <div class="postcard-grid">
+        {{SECTIONS}}
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="page-shell footer__inner">
+      <p>Requests are managed through the linked Reddit thread and direct messages.</p>
+      <a href="{{REDDIT_THREAD_URL}}" target="_blank" rel="noopener noreferrer">Return to Reddit</a>
+    </div>
+  </footer>
+</body>
+</html>

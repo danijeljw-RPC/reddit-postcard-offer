@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local build output can always be regenerated
+# dist/ is intentionally committed in this starter repository so the ZIP
+# contains a built preview. Remove the next line if you prefer not to commit it.
+# dist/
